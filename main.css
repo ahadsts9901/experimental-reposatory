@@ -1,50 +1,65 @@
 * {
-        font-family: "Poppins", "sans-serif";
-        font-weight: bold;
+    font-family: "Poppins", "sans-serif";
+    font-weight: bold;
 }
 
 body {
-        /* background-color: #212121; */
-        /* color: #fff; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 1em;
-        padding: 0em;
-        margin: 0em;
+    /* background-color: #212121; */
+    /* color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    padding: 0em;
+    margin: 0em;
+}
+
+a {
+    color: #212121;
 }
 
 row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.5em;
-        column-gap: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    column-gap: 1em;
 }
 
 column {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 0.5em;
-        row-gap: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    row-gap: 1em;
 }
 
 .button {
-        color: #151515;
-        background-color: #fff;
-        width: 5em;
-        height: 2.5em;
-        border: 0px;
-        border-radius: 15px;
-        font-size: 1.2em;
-        box-shadow: 0px 0px 5px #999;
+    color: #212121;
+    background-color: #fff;
+    width: 5em;
+    height: 2.5em;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+
+.button:active {
+    background-color: #313131;
 }
 
 .center {
-        width: 100%;
-        text-align: center;
-        margin: 3em 0em 2em 0em;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    row-gap: 1em;
 }
