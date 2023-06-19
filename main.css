@@ -15,8 +15,40 @@ body {
     margin: 0em;
 }
 
-a {
+i, a, p, h1, h2, h3, h4, h5, h6{
+    margin: 0em;
+}
+
+.drop-down {
+    background-color: #212121;
+    color: #fff;
+    border: 0px;
+    padding: 0em;
+    margin: 0em;
+}
+
+.drop-down-options {
+    background-color: #fff;
     color: #212121;
+    border: 0px;
+}
+
+.list{
+    width: 8em;
+    margin: 0em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+a , .list>a {
+    color: #212121;
+    text-decoration: none!important;
+    margin: 0.3em ;
+}
+
+.icon{
+    margin-right: 0.5em;
 }
 
 row {
