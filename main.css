@@ -4,8 +4,8 @@
 }
 
 body {
-    /* background-color: #212121; */
-    /* color: #fff; */
+    /* background-color: #212121!important; */
+    /* color: #fff!important; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,10 +13,12 @@ body {
     row-gap: 1em;
     padding: 0em;
     margin: 0em;
+    width: 100vw;
+    height: 100vh;
 }
 
 i, a, p, h1, h2, h3, h4, h5, h6{
-    margin: 0em;
+    margin: 0em!important;
 }
 
 .drop-down {
@@ -27,8 +29,14 @@ i, a, p, h1, h2, h3, h4, h5, h6{
     margin: 0em;
 }
 
-.drop-down-options {
+.dropdown-menu.show{
     background-color: #fff;
+    color: #212121;
+    border: 1px solid #212121;
+}
+
+.drop-down-options {
+    /* background-color: #fff; */
     color: #212121;
     border: 0px;
 }
@@ -44,16 +52,17 @@ i, a, p, h1, h2, h3, h4, h5, h6{
 a , .list>a {
     color: #212121;
     text-decoration: none!important;
-    margin: 0.3em ;
+    margin: 0.3em!important ;
 }
 
 .icon{
-    margin-right: 0.5em;
+    margin-right: 0.5em!important;
 }
 
 row {
     display: flex;
     justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 0.5em;
     column-gap: 1em;
@@ -62,6 +71,7 @@ row {
 column {
     display: flex;
     justify-content: center;
+    /* justify-content: right; */
     flex-direction: column;
     align-items: center;
     padding: 0.5em;
@@ -85,13 +95,4 @@ column {
 .center {
     width: 100%;
     text-align: center;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5em 1em;
-    row-gap: 1em;
 }
