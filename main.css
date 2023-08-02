@@ -75,11 +75,13 @@ a,
 
 /* row */
 
-.row {
+.r {
     display: flex;
     flex-direction: row;
     padding: 0.5em!important;
     gap: 1em;
+    width: 100%;
+    height: fit-content;
 }
 
 .rr {
@@ -87,6 +89,8 @@ a,
     flex-direction: row-reverse;
     padding: 0.5em!important;
     gap: 1em;
+    width: 100%;
+    height: fit-content;
 }
 
 .fw {
@@ -112,11 +116,13 @@ a,
 
 /* column */
 
-.col {
+.c {
     display: flex;
     flex-direction: column;
     padding: 0.5em!important;
     gap: 1em;
+    width: 100%;
+    height: fit-content;
 }
 
 .cr {
@@ -124,6 +130,8 @@ a,
     flex-direction: column-reverse;
     padding: 0.5em!important;
     gap: 1em;
+    width: 100%;
+    height: fit-content;
 }
 
 .aic {
