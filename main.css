@@ -7,9 +7,6 @@
     font-weight: normal!important;
     /* font-weight: bold!important; */
     outline: none!important;
-    margin: 0em!important;
-    /* padding: 0.5em; */
-    padding: 0em!important;
     box-sizing: border-box!important;
     border: 0px!important;
     text-decoration: none!important;
@@ -31,6 +28,21 @@ body {
     row-gap: 1em;
     width: 100vw;
     height: 100vh;
+}
+
+
+/* mo margin elements */
+
+i,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px!important;
 }
 
 
